@@ -1,0 +1,61 @@
+{
+  "name": "gulp-psd2png",
+  "description": "Generate png files from psd",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkadyzalko/gulp-psd2png.git"
+  },
+  "author": {
+    "name": "Arkady Zalkowitsch",
+    "email": "arkady@zalko.com.br",
+    "url": "http://zalko.com.br/"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "concat-with-sourcemaps": "^1.0.0",
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-sourcemaps": "^1.1.4",
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.1",
+    "mocha-lcov-reporter": "0.0.1",
+    "should": "^5.0.0",
+    "stream-array": "^1.0.1",
+    "stream-assert": "^2.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arkadyzalko/gulp-psd2png/issues"
+  },
+  "homepage": "https://github.com/arkadyzalko/gulp-psd2png#readme",
+  "_id": "gulp-psd2png@0.0.1",
+  "_from": "gulp-psd2png@*",
+  "_npmVersion": "2.10.0",
+  "_nodeVersion": "2.0.1",
+  "_npmUser": {
+    "name": "arkadyzalko",
+    "email": "arkady@zalko.com.br"
+  },
+  "maintainers": [
+    {
+      "name": "arkadyzalko",
+      "email": "arkady@zalko.com.br"
+    }
+  ]
+}
